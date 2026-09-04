@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LUMIÈRE — a full-stack optical store platform: customer website, admin panel, POS, and an AI-powered reporting assistant built with Vue 3 and Spring Boot. A case study by Brikend Gjyliqi." />
+  <title>LUMIÈRE — Case study · Brikend Gjyliqi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="case-study.css" />
+</head>
+
+<body>
+
+  <header class="topbar">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">BG</span>
+      <span class="brand-name">Brikend Gjyliqi</span>
+    </a>
+
+    <nav class="top-nav" aria-label="Primary">
+      <a href="index.html#stack">Stack</a>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#background">Background</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <a href="index.html" class="top-cta">
+      <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M7 2L3 6l4 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Back to portfolio
+    </a>
+  </header>
+
+  <main>
+
+    <!-- ───────── CASE HERO ───────── -->
+    <section class="case-hero">
+      <div class="section-label">
+        <span class="label-num">CASE 04</span>
+        <span class="label-line" aria-hidden="true"></span>
+        <span class="label-name">LUMIÈRE · 2026</span>
+      </div>
+
+      <div class="case-hero-inner">
+        <p class="eyebrow">Full-stack platform · Vue 3 · Spring Boot · PostgreSQL · Claude API</p>
+        <h1 class="case-title">
+          A full optical store platform — customer shop, staff admin,
+          in-store POS, and an <em>AI assistant</em> that answers business
+          questions from real data.
+        </h1>
+
+        <dl class="case-meta">
+          <div>
+            <dt>Role</dt>
+            <dd>Designer, full-stack developer</dd>
+          </div>
+          <div>
+            <dt>Frontend</dt>
+            <dd>Vue 3 · Pinia · Vue Router · Tailwind · Chart.js</dd>
+          </div>
+          <div>
+            <dt>Backend</dt>
+            <dd>Java 21 · Spring Boot 3.4 · Spring Security · JWT · PostgreSQL · Flyway</dd>
+          </div>
+          <div>
+            <dt>Status</dt>
+            <dd><span class="ping" aria-hidden="true"></span> Core commerce + admin + POS complete, AI assistant shipped</dd>
+          </div>
+        </dl>
+
+        <div class="case-links">
+          <!-- TODO: add GitHub repo link once public -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── SCREENSHOTS ─────────
+         Me shtu nji screenshot te ri: shtoje nje <figure> tjeter brenda
+         .slider-track me <img src="img/lumiere/emri.png" alt="pershkrimi" />.
+         data-caption = teksti qe del posht fotos.
+    ───────────────────────────────────── -->
+    <section class="case-gallery" aria-label="Screenshots">
+      <div class="case-slider">
+        <div class="slider-viewport">
+          <div class="slider-track">
+
+            <figure data-caption="Homepage — hero, premium eyewear positioning">
+              <img src="img/lumiere/Home.png" alt="LUMIÈRE homepage hero" />
+            </figure>
+            <figure data-caption="Homepage — sunglasses collection highlight">
+              <img src="img/lumiere/Home1.png" alt="Homepage sunglasses collection section" />
+            </figure>
+            <figure data-caption="Homepage — optical frames collection highlight">
+              <img src="img/lumiere/Home2.png" alt="Homepage optical frames collection section" />
+            </figure>
+            <figure data-caption="Homepage — services: eye exams, prescription lenses, fitting, repairs">
+              <img src="img/lumiere/Home3.png" alt="Homepage services section" />
+            </figure>
+            <figure data-caption="Shop — category, gender and price filtering">
+              <img src="img/lumiere/Shop.png" alt="Shop page with category, gender and price filters" />
+            </figure>
+            <figure data-caption="Product detail — price, stock, add to cart and wishlist">
+              <img src="img/lumiere/Shop1.png" alt="Product detail page" />
+            </figure>
+            <figure data-caption="Product specifications — SKU, material, size, shape, and related picks">
+              <img src="img/lumiere/Spec.png" alt="Product specifications tab and related products" />
+            </figure>
+            <figure data-caption="Cart — order summary with promo code and checkout">
+              <img src="img/lumiere/AddToCart.png" alt="Shopping cart page with order summary" />
+            </figure>
+            <figure data-caption="Account-only checkout — sign in or create an account to continue">
+              <img src="img/lumiere/SignIn.png" alt="Sign in to check out modal" />
+            </figure>
+            <figure data-caption="Checkout — shipping details and delivery notes">
+              <img src="img/lumiere/Shipping.png" alt="Shipping details step in checkout" />
+            </figure>
+            <figure data-caption="Checkout — review the order before placing it">
+              <img src="img/lumiere/OrderReview.png" alt="Order review step in checkout" />
+            </figure>
+            <figure data-caption="Order history — status tracking from pending to completed">
+              <img src="img/lumiere/Orders.png" alt="Account order history" />
+            </figure>
+            <figure data-caption="Contact — get in touch or book an eye examination">
+              <img src="img/lumiere/Contact.png" alt="Contact page with contact form" />
+            </figure>
+            <figure data-caption="Account settings — notifications, preferences, security">
+              <img src="img/lumiere/Settings.png" alt="Account settings page" />
+            </figure>
+
+          </div>
+        </div>
+        <button class="slider-btn slider-btn--prev" aria-label="Previous slide">
+          <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="slider-btn slider-btn--next" aria-label="Next slide">
+          <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="slider-foot">
+          <p class="slider-caption"></p>
+          <div class="slider-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── IN SHORT ───────── -->
+    <section class="case-section">
+      <div class="case-grid">
+        <div class="case-grid-side">
+          <span class="case-side-num">1</span>
+          <h2 class="case-side-title">In short</h2>
+        </div>
+        <div class="case-grid-main">
+          <p class="case-lead">
+            LUMIÈRE isn't just a shop — it's a shop, a staff back office, an
+            in-store POS, and an AI reporting layer, all reading and writing
+            through one Spring Boot API and one PostgreSQL database.
+          </p>
+          <p>
+            Product and stock data has exactly one source of truth: when an
+            admin changes a price or adjusts inventory, the customer site
+            reflects it immediately and stock never desyncs between the
+            website, the POS, and the admin panel, because there's nothing
+            to desync — it's the same backend answering all three.
+          </p>
+          <p>
+            It was built in phases — inventory, then checkout, then POS,
+            then the AI assistant — each verified end-to-end before the next
+            was built on top of it. Stock movements in particular were
+            tested for negative-stock rejection and race conditions under
+            simulated concurrent purchases before checkout was allowed to
+            depend on them, using pessimistic locking to keep stock
+            consistent when two orders land at once.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── HIGHLIGHTS ───────── -->
+    <section class="case-section case-tone">
+      <div class="case-grid">
+        <div class="case-grid-side">
+          <span class="case-side-num">2</span>
+          <h2 class="case-side-title">Highlights</h2>
+        </div>
+        <div class="case-grid-main">
+          <div class="build-grid">
+            <div class="build-card">
+              <p class="build-eyebrow">Engineering</p>
+              <h4>Auditable inventory</h4>
+              <p>Stock changes are never silent — every adjustment is a logged movement with a type, a reason, and who made it. Guarded against going negative and safe under concurrent requests.</p>
+            </div>
+            <div class="build-card">
+              <p class="build-eyebrow">Engineering</p>
+              <h4>JWT auth with token rotation</h4>
+              <p>Access and refresh tokens, with refresh rotation on use. Role-based authorization is enforced server-side, not just hidden behind UI.</p>
+            </div>
+            <div class="build-card">
+              <p class="build-eyebrow">Product</p>
+              <h4>One backend, two frontends</h4>
+              <p>The customer website and the staff admin panel are separate Vue apps sharing one Spring Boot API and one PostgreSQL database — no duplicated or drifting product data.</p>
+            </div>
+            <div class="build-card">
+              <p class="build-eyebrow">AI</p>
+              <h4>Tool-use, not free-form SQL</h4>
+              <p>The dashboard's natural-language assistant calls a fixed set of read-only reporting endpoints via Claude's tool-use — it can answer real business questions but has no path to touch or corrupt data.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── CTA ───────── -->
+    <section class="case-cta">
+      <h2 class="cta-title">
+        Want to see the
+        <em>code?</em>
+      </h2>
+      <p class="cta-lede">
+        The full project is on GitHub — or get in touch and I'll walk you through the architecture.
+      </p>
+      <div class="cta-actions">
+        <!-- TODO: add GitHub repo link once public -->
+        <a href="index.html#contact" class="btn btn-ghost">Get in touch</a>
+        <a href="index.html#work" class="btn btn-ghost">See other work</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <div class="foot-row">
+      <span class="foot-mark">BG</span>
+      <span class="foot-text">© <span id="liveYear">2026</span> Brikend Gjyliqi. Designed and built in Hildesheim.</span>
+      <a href="index.html" class="foot-up">Back to portfolio ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ForexPulse — a calm journaling dashboard for retail forex traders. A case study by Brikend Gjyliqi." />
+  <title>ForexPulse — Case study · Brikend Gjyliqi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="case-study.css" />
+</head>
+
+<body>
+
+  <header class="topbar">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">BG</span>
+      <span class="brand-name">Brikend Gjyliqi</span>
+    </a>
+
+    <nav class="top-nav" aria-label="Primary">
+      <a href="index.html#stack">Stack</a>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#background">Background</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <a href="index.html" class="top-cta">
+      <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M7 2L3 6l4 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Back to portfolio
+    </a>
+  </header>
+
+  <main>
+
+    <!-- ───────── CASE HERO ───────── -->
+    <section class="case-hero">
+      <div class="section-label">
+        <span class="label-num">CASE 02</span>
+        <span class="label-line" aria-hidden="true"></span>
+        <span class="label-name">ForexPulse · 2026</span>
+      </div>
+
+      <div class="case-hero-inner">
+        <p class="eyebrow">Full-stack · Web app</p>
+        <h1 class="case-title">
+          A calm,
+          <em>focused</em>
+          dashboard for traders who actually want to learn from their trades.
+        </h1>
+
+        <dl class="case-meta">
+          <div>
+            <dt>Role</dt>
+            <dd>Designer &amp; developer</dd>
+          </div>
+          <div>
+            <dt>Stack</dt>
+            <dd>Vue 3 · Pinia · Node · Python · MT5</dd>
+          </div>
+          <div>
+            <dt>Timeline</dt>
+            <dd>Ongoing · started 2026</dd>
+          </div>
+          <div>
+            <dt>Status</dt>
+            <dd><span class="ping" aria-hidden="true"></span> In active development</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ───────── SCREENSHOTS ─────────
+         Me shtu nji screenshot: zavendsoje <div class="slide-ph">...</div>
+         me <img src="img/forex/emri.png" alt="pershkrimi" /> brenda <figure>.
+         data-caption = teksti qe del posht fotos.
+    ───────────────────────────────────── -->
+    <section class="case-gallery" aria-label="Screenshots">
+      <div class="case-slider">
+        <div class="slider-viewport">
+          <div class="slider-track">
+            <figure data-caption="Login — JWT auth with bcrypt-hashed passwords">
+              <img src="img/forex/Login.png" alt="Login View" />
+            </figure>
+            <figure data-caption="Dashboard — total trades, profit, best/worst trade, and reflections">
+              <img src="img/forex/Dashboard.png" alt="Dashboard View" />
+            </figure>
+            <figure data-caption="Goals — weekly and monthly profit, win-rate and risk targets">
+              <img src="img/forex/BalanceCurve.png" alt="Balance Curve" />
+            </figure>
+            <figure data-caption="Daily performance — closed trades, profit/loss, and reflections">
+              <img src="img/forex/DailyPerformance.png" alt="Daily Performance" />
+            </figure>
+            <figure data-caption="Account — detailed account information and settings">
+              <img src="img/forex/Account.png" alt="Account View" />
+            </figure>
+            <figure data-caption="Trades — closed trades with reflections and profit/loss">
+              <img src="img/forex/Trades.png" alt="Trades View" />
+            </figure>
+            <figure data-caption="Goals — weekly and monthly profit, win-rate and risk targets">
+              <img src="img/forex/GoalsTarget.png" alt="Goals Target" />
+            </figure>
+            <figure data-caption="Journal — written reflections and insights">
+              <img src="img/forex/Journal.png" alt="Journal View" />
+            </figure>
+          </div>
+        </div>
+        <button class="slider-btn slider-btn--prev" aria-label="Previous slide">
+          <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="slider-btn slider-btn--next" aria-label="Next slide">
+          <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="slider-foot">
+          <p class="slider-caption"></p>
+          <div class="slider-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── IN SHORT ───────── -->
+    <section class="case-section">
+      <div class="case-grid">
+        <div class="case-grid-side">
+          <span class="case-side-num">1</span>
+          <h2 class="case-side-title">In short</h2>
+        </div>
+        <div class="case-grid-main">
+          <p class="case-lead">
+            Most trading journals are either bloated SaaS products or a
+            forgotten Excel sheet. ForexPulse sits between them — connected to
+            your live MT5 account, but quiet enough that you'll actually open it.
+          </p>
+          <p>
+            It reads closed positions straight from IC Markets MT5, shows the
+            four numbers that matter (total trades, total profit, best and worst
+            trade), and lets you keep written reflections against each trade —
+            plus weekly and monthly goals. The brief: open the app, see how the
+            week went in under 10 seconds, write one paragraph, close the app.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── HIGHLIGHTS ───────── -->
+    <section class="case-section case-tone">
+      <div class="case-grid">
+        <div class="case-grid-side">
+          <span class="case-side-num">2</span>
+          <h2 class="case-side-title">Highlights</h2>
+        </div>
+        <div class="case-grid-main">
+          <div class="build-grid">
+            <div class="build-card">
+              <p class="build-eyebrow">Integration</p>
+              <h4>Live MT5 connection</h4>
+              <p>Authenticates against IC Markets MT5 and syncs closed positions in the background — no imports, it's just there.</p>
+            </div>
+            <div class="build-card">
+              <p class="build-eyebrow">Product</p>
+              <h4>Journal &amp; goals, not noise</h4>
+              <p>Per-trade reflections, daily/weekly summaries, and profit or win-rate targets the dashboard quietly tracks. No charts you'll never open.</p>
+            </div>
+            <div class="build-card">
+              <p class="build-eyebrow">Engineering</p>
+              <h4>Node + Python backend</h4>
+              <p>Node serves the REST API and auth; a small Python service talks to MT5, polls for new positions and reconciles them on the server.</p>
+            </div>
+            <div class="build-card">
+              <p class="build-eyebrow">Design</p>
+              <h4>Calm by default</h4>
+              <p>One accent colour, generous spacing, zero red until something actually goes wrong. The first version had charts and heatmaps — cutting them made the product better.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── CTA ───────── -->
+    <section class="case-cta">
+      <h2 class="cta-title">
+        Want to see it
+        <em>in action?</em>
+      </h2>
+      <p class="cta-lede">
+        I'm happy to demo ForexPulse over a call, or get in touch about a project of your own.
+      </p>
+      <div class="cta-actions">
+        <a href="index.html#contact" class="btn btn-primary">
+          Get in touch
+          <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M1 7h11M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="index.html#work" class="btn btn-ghost">See other work</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <div class="foot-row">
+      <span class="foot-mark">BG</span>
+      <span class="foot-text">© <span id="liveYear">2026</span> Brikend Gjyliqi. Designed and built in Hildesheim.</span>
+      <a href="index.html" class="foot-up">Back to portfolio ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
