@@ -1011,7 +1011,7 @@ img { display: block; max-width: 100%; }
   .hero-actions .btn { flex: 1 1 auto; justify-content: center; }
 }
 
-/* ─── Kendi POS live preview inside featured-project ─── */
+/* ─── ÉVO POS live preview inside featured-project ─── */
 .kendi-preview {
   background: #0F141A;
   display: flex;
@@ -1133,7 +1133,7 @@ img { display: block; max-width: 100%; }
   .kp-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* ─── Kendi POS mini preview inside project-card ─── */
+/* ─── ÉVO POS mini preview inside project-card ─── */
 .project-card-media--link {
   display: block;
   text-decoration: none;
@@ -1227,7 +1227,7 @@ img { display: block; max-width: 100%; }
 
 .project-card-link:hover { text-decoration: underline; }
 /* ─────────────────────────────────────────────────────────────
-   Kendi POS featured hero mock
+   ÉVO POS featured hero mock
    ───────────────────────────────────────────────────────────── */
 
 .kp-hero {

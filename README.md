@@ -4,7 +4,7 @@ Personal portfolio site for **Brikend Gjyliqi** — full-stack developer (Vue, S
 
 **Live structure:**
 - [`index.html`](index.html) — home page: stack, selected work, background, contact
-- [`kendi-pos.html`](kendi-pos.html) — Kendi POS, a point-of-sale system for Kosovo cafes and restaurants
+- [`evo-pos.html`](evo-pos.html) — ÉVO POS, a point-of-sale system for Kosovo cafes and restaurants
 - [`lumiere.html`](lumiere.html) — LUMIÈRE, a full-stack optical store platform (customer shop, admin panel, POS, AI reporting assistant)
 - [`coinpulse.html`](coinpulse.html) — CoinPulse, a crypto price and portfolio tracker
 - [`forex-pulse.html`](forex-pulse.html) — ForexPulse, a journaling dashboard for retail forex traders
